@@ -22,5 +22,7 @@ def fileGenerator(split, n, alphabet, minSize, maxSize):
         text = '\n'.join(wordList)
         file.write(text)
         file.close()
-        
-fileGenerator(4, 100, myAlphabet, 2, 5)
+
+# Gera 10 arquivos com 10000 palavras em cada
+# cada palavra está entre 2 e 5 de tamanho
+fileGenerator(10, 10000, myAlphabet, 2, 5)
