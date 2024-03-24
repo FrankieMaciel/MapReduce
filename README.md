@@ -30,4 +30,4 @@
      ```
    Isso realizará uma busca usando a expressão regular "^abc" nos arquivos especificados.
 
-**Observação:** Certifique-se de ter os arquivos de dados necessários no diretório correto antes de executar os scripts.
+**Observação:** Certifique-se de ter os arquivos de dados necessários no diretório correto antes de executar os scripts, os resultados gerados aparecerão na pasta "result" em um arquivo chamado "out.txt".
